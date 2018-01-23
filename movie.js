@@ -25,7 +25,7 @@ function getDataFromNyt(){
                     $('.js-search-page').addClass('hidden');
                     $('.js-results-page').removeClass('hidden');
                     bodek.append(`<div class="row"><div class="col-12">
-                    <div class="movie"><p><h4><a target="_blank" href=${'http://www.nytimes.com' + result.results[i].url}>${result.results[i].display_title}</a></h4></p>
+                    <div class="movie"><p><h4><a target="_blank" href=${ + result.results[i].url}>${result.results[i].display_title}</a></h4></p>
                         ${result.results[i].headline}<br><br>
                             ${result.results[i].summary_short}</div></div></div>`);                           
                 } else if(!$('.js-query').val()){
