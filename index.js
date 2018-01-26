@@ -10,7 +10,7 @@ function getDataFromNyt(){
         event.preventDefault();        
         const query = $('.js-query').val();
         const outcome = $('.js-outcome');                                      
-        let url = "https://api.nytimes.com/svc/movies/v2/reviews/search.json";
+        var url = "https://api.nytimes.com/svc/movies/v2/reviews/search.json";
         url += '?' + $.param({
             'api-key': "1b45aab26c4f43869d611a4c1ff2c95d",
             'query': `${query}`            
