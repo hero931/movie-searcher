@@ -16,17 +16,17 @@ You can access a working prototype of the app here: https://hero931.github.io/mo
 
 # Functionality
 The app's functionality includes:
-  The ability to search for movie review on NYT sources
-  The ability to be directed to specific movie review
-  The app gives user ability to see Youtube search related to the movie review
+1. The ability to search for movie review on NYT sources
+2. The ability to be directed to specific movie review
+3. The app gives user ability to see Youtube search related to the movie review
  
 # Technology
-  HTML
-  CSS
-  JavaScript
-  jQuery
-  The app uses AJAX JSON calls to the NYT API to return result of movie reviews search.
-  The app uses AJAX JSON calls to the YouTube API to return result of movie reviews search.
+1. HTML
+2. CSS
+3. JavaScript
+4. jQuery
+5. The app uses AJAX JSON calls to the NYT API to return result of movie reviews search.
+6. The app uses AJAX JSON calls to the YouTube API to return result of movie reviews search.
   
  # Responsive
  App is built to be responsive across mobile, tablet, laptop, and desktop screen resolutions.
