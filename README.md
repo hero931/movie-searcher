@@ -1,4 +1,4 @@
 # movie_capstone
-
-![](file:///C:/Users/Ilya%20Andreev/Desktop/movie_project/index.html)
+===
+![image](https://user-images.githubusercontent.com/31460531/35476519-535ee380-037f-11e8-851f-ab75e745f2aa.png)
 
