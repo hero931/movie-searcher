@@ -175,12 +175,14 @@ p, a, span .btn {
     clear: both;    
 }
 
-.movie{
+.movie {
     padding: 8px;
     margin-bottom: 7px;
     background-color: #fdfdfdcc;
     text-decoration-color: rgb(241, 174, 126)
 }
+
+img { max-width: 100%; }
 
 .col-12 {
     float: left;
