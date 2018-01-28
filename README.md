@@ -4,22 +4,22 @@ Website that pulls data from two APIs, YouTube (https://www.googleapis.com/youtu
 
 # Screenshots
 
-** Landing page:
+*Landing page:
 
 ![image](https://user-images.githubusercontent.com/31460531/35476519-535ee380-037f-11e8-851f-ab75e745f2aa.png)
 
 
-** Search results:
+*Search results:
 
 ![image](https://user-images.githubusercontent.com/31460531/35476546-c79a4b22-037f-11e8-9a17-6bfc98e711f7.png)
 
 
-** Direct link to the movie:
+*Direct link to the movie:
 
 ![image](https://user-images.githubusercontent.com/31460531/35476552-df58edfe-037f-11e8-915e-ea88ed8a15b8.png)
 
 
-** YouTube results:
+*YouTube results:
 
 ![image](https://user-images.githubusercontent.com/31460531/35476555-f6fcdd30-037f-11e8-9dc6-ef5ce1e68cdd.png)
 
