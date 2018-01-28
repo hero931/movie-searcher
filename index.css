@@ -179,10 +179,19 @@ p, a, span .btn {
     padding: 8px;
     margin-bottom: 7px;
     background-color: #fdfdfdcc;
-    text-decoration-color: rgb(241, 174, 126)
+    text-decoration-color: rgb(241, 174, 126);
+    text-align: justify;
 }
 
-img { max-width: 100%; }
+movie::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+img { 
+    max-width: 100%;
+}
 
 .col-12 {
     float: left;
@@ -191,8 +200,7 @@ img { max-width: 100%; }
     width: 100%;
 }  
   
-@media only screen and (min-width: 640px) {
-    
+@media only screen and (min-width: 640px) {    
     .col-12 {
       width: 100%;
     }
