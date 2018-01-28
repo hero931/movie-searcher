@@ -1,8 +1,10 @@
 # movie_capstone
 
+
 Website that pulls data from two APIs, YouTube (https://www.googleapis.com/youtube/v3/search), NYT (https://api.nytimes.com/svc/movies/v2/reviews/search.json) to let users track movie reviews from New York Times sources.
 
 # Screenshots
+
 
 LANDING PAGE:
 
@@ -26,9 +28,11 @@ YOUTUBE RESULTS:
 
 # Working Prototype
 
+
 You can access a working prototype of the app here: https://hero931.github.io/movie_capstone
 
 # Functionality
+
 
 The app's functionality includes:
 * The ability to search for movie review on NYT sources
@@ -36,6 +40,7 @@ The app's functionality includes:
 * The app gives user ability to see Youtube search related to the movie review
  
 # Technology
+
 
 * HTML
 * CSS
@@ -45,7 +50,8 @@ The app's functionality includes:
 * The app uses AJAX JSON calls to the YouTube API to return result of movie reviews search.
   
  # Responsive
-  
+ 
+ 
  App is built to be responsive across mobile, tablet, laptop, and desktop screen resolutions.
  
  
