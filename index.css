@@ -4,9 +4,7 @@
 
 body {
     background: url("https://images.unsplash.com/photo-1512412632857-b93f6ecce335?auto=format&fit=crop&w=634&q=80") no-repeat center center fixed;
-    background-size: cover;
-    
-    
+    background-size: cover;    
 }
 
 p, a, span .btn {
@@ -115,7 +113,6 @@ p, a, span .btn {
     text-align: center;
     padding: 5px 5px;
     margin-top: 25px;
-
 }
 
 .js-results-area a.btn.try-again {
@@ -185,16 +182,12 @@ p, a, span .btn {
     text-decoration-color: rgb(241, 174, 126)
 }
 
-
-.col-6, .col-12 {
+.col-12 {
     float: left;
     padding-left: 1.04166666%;
     padding-right: 1.04166666%;
     width: 100%;
-}
-  
-  
-  
+}  
   
 @media only screen and (min-width: 640px) {
     
