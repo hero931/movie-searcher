@@ -30,7 +30,7 @@ YOUTUBE RESULTS:
 # Working Prototype
 
 
-You can access a working prototype of the app here: https://hero931.github.io/movie_capstone
+You can access a working prototype of the app here: https://hero931.github.io/movie-searcher/
 
 # Functionality
 
