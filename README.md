@@ -1,4 +1,4 @@
-# movie_capstone
+# movie-searcher
 
 
 Website that pulls data from two APIs, YouTube (https://www.googleapis.com/youtube/v3/search), NYT (https://api.nytimes.com/svc/movies/v2/reviews/search.json) to let users track movie reviews from New York Times sources.
