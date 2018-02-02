@@ -8,23 +8,22 @@ Website that pulls data from two APIs, YouTube (https://www.googleapis.com/youtu
 
 LANDING PAGE:
 
-![image](https://user-images.githubusercontent.com/31460531/35479007-df83ee70-03b9-11e8-9cb6-10588dfc4bbd.png)
+![image](https://user-images.githubusercontent.com/31460531/35713527-d26ffd5c-0795-11e8-8a00-e634b87e53ff.png)
 
 
 SEARCH RESULTS:
 
-![image](https://user-images.githubusercontent.com/31460531/35479012-f5f32ef0-03b9-11e8-8710-ffc30d674eec.png)
+![image](https://user-images.githubusercontent.com/31460531/35713562-fa22a426-0795-11e8-936e-88b90adeedd6.png)
 
 
 DIRECT LINK TO THE MOVIE:
 
-![image](https://user-images.githubusercontent.com/31460531/35479013-079c0398-03ba-11e8-8c68-5a7033d98ad1.png)
-
+![image](https://user-images.githubusercontent.com/31460531/35713579-1185122a-0796-11e8-8c2b-1907487f2ea5.png)
 
 
 YOUTUBE RESULTS:
 
-![image](https://user-images.githubusercontent.com/31460531/35479018-17f97d06-03ba-11e8-92fe-cf4bae4caa24.png)
+![image](https://user-images.githubusercontent.com/31460531/35713595-2f7a94a8-0796-11e8-80bf-8f37b854196d.png)
 
 
 # Working Prototype
