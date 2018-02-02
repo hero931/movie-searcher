@@ -3,8 +3,9 @@
 }
 
 body {
-    background: url("https://images.unsplash.com/photo-1512412632857-b93f6ecce335?auto=format&fit=crop&w=634&q=80") no-repeat center center fixed;
-    background-size: cover;    
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Pt0C8ZYFSLE6to78GL6sTRjGWg5WYPwY09kll_NOyhn84jD9eA") no-repeat center center fixed;
+    background-size: contain;
+    filter: contrast(150%);                 
 }
 
 p, a, span .btn {
@@ -21,7 +22,7 @@ p, a, span .btn {
 }
 
 .header span{
-    color: rgba(38, 171, 233, 0.911)
+    color: rgba(23, 118, 243, 0.897)
 }
 
 .main p {
@@ -42,7 +43,10 @@ p, a, span .btn {
     background-color: rgba(207, 89, 53, 0.651);
     color: #f7fdfd;
     width: 65px;
-    height: 41px;
+    height: 42.5px;
+    border: none;
+    font-size: 18px;
+    border-radius: 2px;
 }
 
 .search-area input {
@@ -76,19 +80,26 @@ p, a, span .btn {
 
 .btn.try-again, .btn:visited.try-again {
     color: white;
-    background-color: rgb(230, 193, 166);
+    background-color: rgb(211, 140, 89);
     border: 1px solid white;
 }
 
 .js-results-area {
-    background-color: rgba(144, 133, 151, 0.493);
+    background-color: rgba(239, 234, 241, 0.493);
     border-radius: 2px;
     padding: 30px 30px;
     -webkit-text-fill-color: rgb(145, 73, 26);
 }
 
+.col-12 section h2{
+    margin: 40px auto 60px;
+    background-color: rgba(193, 252, 244, 0.13);;
+    text-decoration: underline;
+    width: 50%;
+}
+
 .js-results-area h2{
-    -webkit-text-fill-color: #e7f3f3
+    -webkit-text-fill-color: #302721
 }
 
 .js-results-area div h4{
@@ -106,13 +117,14 @@ p, a, span .btn {
 .js-results-area a.btn {    
     display: inline-block;
     font-family: 'Cousine', monospace;
-    background-color: rgba(250, 70, 15, 0.452);
+    background-color: rgba(250, 69, 14, 0.514);
     color: #f7fdfd;
     width: auto;
     height: auto;
     text-align: center;
     padding: 5px 5px;
     margin-top: 25px;
+
 }
 
 .js-results-area a.btn.try-again {
@@ -136,7 +148,7 @@ p, a, span .btn {
 
 .js-no-results-page h2 {
     text-align: center;
-    color: rgb(250, 247, 246);
+    color: rgb(221, 97, 55);
     font-family: 'Raleway', sans-serif;
     margin-top: 85px;
 }
@@ -175,7 +187,7 @@ p, a, span .btn {
     clear: both;    
 }
 
-.movie {
+.movie{
     padding: 8px;
     margin-bottom: 7px;
     background-color: #fdfdfdcc;
@@ -189,19 +201,19 @@ movie::after {
     width: 100%;
 }
 
-img { 
-    max-width: 100%;
-}
-
 .col-12 {
     float: left;
     padding-left: 1.04166666%;
     padding-right: 1.04166666%;
     width: 100%;
-}  
+} 
   
 @media only screen and (min-width: 640px) {    
     .col-12 {
       width: 100%;
     }
 }
+
+img { max-width: 100%; }
+
+
