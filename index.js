@@ -50,7 +50,7 @@ function getYoutubeDataFromApi(searchTerm, callback) {
         const query = {
             part: 'snippet',
             key: 'AIzaSyCo3Hc6JwT7iXeFvOUuVJOyoQPHOlWeUd4',
-            q: `${searchTerm} NYT movie reviews`,   
+            q: `${searchTerm} in NYT`,   
             maxResults: "2"             
         }            
         $.getJSON(YOUTUBE_SEARCH_URL, query, callback);        
@@ -101,6 +101,10 @@ function init(){
 }
 
 $(init);
+
+
+
+
 
 
 
