@@ -20,9 +20,9 @@
         </div>
     </header>
     <main class="js-main" role="main">
-        <div class="row js-search-page" id="search_panel">
+        <div class="row js-search-page">
             <div class="col-12 main">
-              <p>To get started, simply type the name of your favorite movie below. NYT movie reviews will provide you with a list of reviews and video related to your search! Give it a try...</p>
+              <p>To get started, simply type the name of your favorite movie below. NYT will provide you with a list of reviews. To get more information just click on the name of the movie and you will be taken to NYT source. Also there is a video below the reviews section! Give it a try...</p>
                 <section class="search-area">
                  <form action="#" class="js-search-form">                    
                         <input aria-label="search-term" type="text" class="js-query" placeholder="Search for movie">
@@ -37,6 +37,9 @@
                     <div aria-live="assertive" class="js-outcome"></div>                    
                 </div>
                 <div class="col-12">
+                    <section>
+                        <h2>Check out the video below...</h2>
+                    </section>
                     <div aria-live="assertive" class="js-youtube"></div>
                 </div>                                                                
                 <div class="to-center-btn">
@@ -49,7 +52,7 @@
                 <h2>Sorry, no results for that search!</h2>
                 <a class="btn js-try-again" href="#">Please Try Again</a>
             </div>
-        </div>       
+        </div>             
     </main>        
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="index.js"></script>
