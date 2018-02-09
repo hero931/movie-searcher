@@ -3,15 +3,15 @@
 }
 
 body {
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Pt0C8ZYFSLE6to78GL6sTRjGWg5WYPwY09kll_NOyhn84jD9eA") no-repeat center center fixed;
-    background-size: contain;
+    background: url("website-background.jpg") no-repeat center center fixed;
+    background-size: cover;
     filter: contrast(150%);                 
 }
 
 p, a, span .btn {
     font-family: 'Cousine', monospace;
     text-decoration: none;
-    color: rgb(119, 52, 5);
+    color: rgba(23, 118, 243, 0.897);
 }
 
 .header h1 {
@@ -22,7 +22,7 @@ p, a, span .btn {
 }
 
 .header span{
-    color: rgba(23, 118, 243, 0.897)
+    color: rgba(23, 118, 243, 0.897);
 }
 
 .main p {
@@ -30,7 +30,7 @@ p, a, span .btn {
     color: rgba(241, 252, 253, 0.705);
     font-size: 1.3rem;
     padding: 0px 50px;
-    background-color: rgba(124, 43, 54, 0.363);
+    background-color: rgba(23, 118, 243, 0.897);
 }
 
 .search-area {
@@ -40,9 +40,9 @@ p, a, span .btn {
 .search-area button {
     display: inline-block;
     font-family: 'Cousine', monospace;
-    background-color: rgba(207, 89, 53, 0.651);
+    background-color: rgba(23, 118, 243, 0.897);
     color: #f7fdfd;
-    width: 65px;
+    width: auto;
     height: 42.5px;
     border: none;
     font-size: 18px;
@@ -56,9 +56,9 @@ p, a, span .btn {
     box-sizing: border-box;
     border-radius: 2px;
     border: none;
-    outline-color: #B67D53;
+    outline-color: white;
     color: #f7fdfd;
-    background-color: rgba(207, 89, 53, 0.651);
+    background-color: rgba(23, 118, 243, 0.897);
     font-size: 20px;
     font-family: 'Cousine', monospace;
     display: inline-block;
@@ -66,21 +66,21 @@ p, a, span .btn {
 
 .btn:hover, .btn:active, .btn:focus  {
     background-color: white;
-    color: #6F4D33;;
+    color: rgba(23, 118, 243, 0.897);
     font-weight: bold;
     outline: none;
-    border: 1px solid #6F4D33;
+    border: 1px solid rgba(23, 118, 243, 0.897);
 }
 
 .btn:hover.try-again, .btn:active.try-again, .btn:focus.try-again  {
-    color:#6F4D33;
+    color:rgba(23, 118, 243, 0.897);
     background-color: white;
-    border: 1px solid #6F4D33;
+    border: 1px solid rgba(23, 118, 243, 0.897);
 }
 
 .btn.try-again, .btn:visited.try-again {
     color: white;
-    background-color: rgb(211, 140, 89);
+    background-color: rgba(23, 118, 243, 0.897);
     border: 1px solid white;
 }
 
@@ -88,18 +88,18 @@ p, a, span .btn {
     background-color: rgba(239, 234, 241, 0.493);
     border-radius: 2px;
     padding: 30px 30px;
-    -webkit-text-fill-color: rgb(145, 73, 26);
+    -webkit-text-fill-color: rgba(23, 118, 243, 0.897);
 }
 
 .col-12 section h2{
     margin: 40px auto 60px;
-    background-color: rgba(193, 252, 244, 0.13);;
+    background-color: rgba(193, 252, 244, 0.13);
     text-decoration: underline;
     width: 50%;
 }
 
 .js-results-area h2{
-    -webkit-text-fill-color: #302721
+    -webkit-text-fill-color: rgba(23, 118, 243, 0.897);
 }
 
 .js-results-area div h4{
@@ -117,7 +117,7 @@ p, a, span .btn {
 .js-results-area a.btn {    
     display: inline-block;
     font-family: 'Cousine', monospace;
-    background-color: rgba(250, 69, 14, 0.514);
+    background-color: rgba(23, 118, 243, 0.897);
     color: #f7fdfd;
     width: auto;
     height: auto;
@@ -148,7 +148,7 @@ p, a, span .btn {
 
 .js-no-results-page h2 {
     text-align: center;
-    color: rgb(221, 97, 55);
+    color: rgba(23, 118, 243, 0.897);
     font-family: 'Raleway', sans-serif;
     margin-top: 85px;
 }
@@ -160,7 +160,7 @@ p, a, span .btn {
     margin-right: auto;
     text-align: center;
     width: 200px;
-    -webkit-text-fill-color: rgb(201, 119, 12);
+    -webkit-text-fill-color: rgba(23, 118, 243, 0.897);
     padding: 3px 3px;
     font-size: 20px;
 }
@@ -191,7 +191,7 @@ p, a, span .btn {
     padding: 8px;
     margin-bottom: 7px;
     background-color: #fdfdfdcc;
-    text-decoration-color: rgb(241, 174, 126);
+    text-decoration-color: rgba(23, 118, 243, 0.897);
     text-align: justify;
 }
 
@@ -215,5 +215,8 @@ movie::after {
 }
 
 img { max-width: 100%; }
+
+
+
 
 
