@@ -1,29 +1,24 @@
 # Movie-Searcher
 
 
-Website that pulls data from two APIs, YouTube (https://www.googleapis.com/youtube/v3/search), NYT (https://api.nytimes.com/svc/movies/v2/reviews/search.json) to let users track movie reviews from New York Times sources.
+Website that pulls data from API NYT (https://api.nytimes.com/svc/movies/v2/reviews/search.json) to let users track movie reviews from New York Times sources.
 
 # Screenshots
 
 
 LANDING PAGE:
 
-![image](https://user-images.githubusercontent.com/31460531/35713527-d26ffd5c-0795-11e8-8a00-e634b87e53ff.png)
+![image](https://user-images.githubusercontent.com/31460531/36012305-3ecb1870-0d2b-11e8-8c98-5b1f31b66051.png)
 
 
 SEARCH RESULTS:
 
-![image](https://user-images.githubusercontent.com/31460531/35713562-fa22a426-0795-11e8-936e-88b90adeedd6.png)
+![image](https://user-images.githubusercontent.com/31460531/36012355-9687d5c6-0d2b-11e8-8f99-01df5adc6510.png)
 
 
 DIRECT LINK TO THE MOVIE:
 
-![image](https://user-images.githubusercontent.com/31460531/35713579-1185122a-0796-11e8-8c2b-1907487f2ea5.png)
-
-
-YOUTUBE RESULTS:
-
-![image](https://user-images.githubusercontent.com/31460531/35713595-2f7a94a8-0796-11e8-80bf-8f37b854196d.png)
+![image](https://user-images.githubusercontent.com/31460531/36012427-080921c8-0d2c-11e8-80a3-5f2ba63643fd.png)
 
 
 # Working Prototype
@@ -37,8 +32,8 @@ You can access a working prototype of the app here: https://hero931.github.io/mo
 The app's functionality includes:
 * The ability to search for movie review on NYT sources
 * The ability to be directed to specific movie review
-* The app gives user ability to see Youtube search related to the movie review
- 
+
+
 # Technology
 
 
