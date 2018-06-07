@@ -5,7 +5,7 @@
 body {
     background: url("website-background.jpg") no-repeat center center fixed;
     background-size: cover;
-    filter: contrast(150%);                 
+    filter: contrast(150%);
 }
 
 p, a, span .btn {
@@ -15,8 +15,8 @@ p, a, span .btn {
 }
 
 .header h1 {
+    margin-top: 42px;
     text-align: center;
-    margin-top: 120px;
     color: rgba(243, 14, 45, 0.918);
     font-family: 'Baloo Thambi', cursive;
 }
@@ -50,7 +50,7 @@ p, a, span .btn {
 }
 
 .search-area input {
-    width: 35%;
+    width: 253px;
     padding: 10px 15px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -104,17 +104,17 @@ p, a, span .btn {
 
 .js-results-area div h4{
     margin-top: 15px;
-    margin-bottom: 10px;   
+    margin-bottom: 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     width: 50%;
-    display: inline-block;    
+    display: inline-block;
 }
 
 .js-results-area div h4:hover {
     background-color: #0099cc;
 }
 
-.js-results-area a.btn {    
+.js-results-area a.btn {
     display: inline-block;
     font-family: 'Cousine', monospace;
     background-color: rgba(23, 118, 243, 0.897);
@@ -143,7 +143,7 @@ p, a, span .btn {
     text-align: center;
     color: rgb(193, 252, 244);
     font-size: 18px;
-    font-family: 'Cousine', monospace;    
+    font-family: 'Cousine', monospace;
 }
 
 .js-no-results-page h2 {
@@ -169,8 +169,8 @@ p, a, span .btn {
     display: none;
 }
 
-.active { 
-    display: block;    
+.active {
+    display: block;
 }
 
 .row {
@@ -184,7 +184,7 @@ p, a, span .btn {
 .row::after {
     display: table;
     content: '';
-    clear: both;    
+    clear: both;
 }
 
 .movie{
@@ -206,15 +206,17 @@ movie::after {
     padding-left: 1.04166666%;
     padding-right: 1.04166666%;
     width: 100%;
-} 
-  
-@media only screen and (min-width: 640px) {    
-    .col-12 {
-      width: 100%;
+}
+
+@media only screen and (min-width: 324px) {
+    .search-area input {
+
     }
 }
 
-img { max-width: 100%; }
+
+
+
 
 
 
