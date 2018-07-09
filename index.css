@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url("/images/new-landing.jpg") no-repeat center center fixed;
+    background: url("/images/new-landing.png") no-repeat center center fixed;
     background-size: contain;
     filter: contrast(150%);
 }
