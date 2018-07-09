@@ -3,8 +3,8 @@
 }
 
 body {
-    background: url("website-background.jpg") no-repeat center center fixed;
-    background-size: cover;
+    background: url("/images/back.jpg") no-repeat center center fixed;
+    background-size: contain;
     filter: contrast(150%);
 }
 
